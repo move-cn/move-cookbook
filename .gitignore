@@ -3,7 +3,7 @@ build
 book
 .idea
 # dependencies
-/node_modules
+node_modules
 /.pnp
 .pnp.js
 
@@ -21,6 +21,7 @@ book
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
 yarn-debug.log*

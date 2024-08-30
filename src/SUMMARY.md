@@ -13,6 +13,10 @@
   - [字符串转数字](02_string/03.string_to_num.md)
   - [数字转字符串](02_string/04.num_to_string.md)
 
+- [随机数](04_random/readme.md)
+
+  - [random](04_random/01.random.md)
+
 - [容器](05_collection/readme.md)
   - [动态字段(Dynamic Field)](05_collection/01.dynamic_field.md)
   - [动态对象字段(Dynamic Object Field)](05_collection/02.dynamic_object_field.md)
