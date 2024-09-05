@@ -14,8 +14,8 @@
   - [数字转字符串](02_string/04.num_to_string.md)
 
 - [随机数](04_random/readme.md)
-
   - [random](04_random/01.random.md)
+  - [oracle](04_random/02.oracle.md)
 
 - [容器](05_collection/readme.md)
   - [动态字段(Dynamic Field)](05_collection/01.dynamic_field.md)
