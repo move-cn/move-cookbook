@@ -2,10 +2,11 @@
 
 [move]
 version = 2
-manifest_digest = "86A4BF572F164C40E35D11D469F863FCD29A214F773C837CB1DEA5C5EE1A92BE"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
+manifest_digest = "9C661030A3D9E57093DA1A0FAC51CDD1328E3E75673B4FC405BA7BB1FFA042B9"
+deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { name = "Sui" },
+  { name = "simple_weather_oracle" },
 ]
 
 [[move.package]]
@@ -20,8 +21,16 @@ dependencies = [
   { name = "MoveStdlib" },
 ]
 
+[[move.package]]
+name = "simple_weather_oracle"
+source = { git = "https://github.com/bityoume/move-cookbook_rzexin.git", rev = "main", subdir = "src/04_random/codes/simple_weather_oracle" }
+
+dependencies = [
+  { name = "Sui" },
+]
+
 [move.toolchain-version]
-compiler-version = "1.33.0"
+compiler-version = "1.32.0"
 edition = "2024.beta"
 flavor = "sui"
 
@@ -29,6 +38,12 @@ flavor = "sui"
 
 [env.testnet]
 chain-id = "4c78adac"
-original-published-id = "0xc80da11fbee3b9b74f3cf3fc7f013b6c12041b6ba68261019cf77fa3cbdc0966"
-latest-published-id = "0xc80da11fbee3b9b74f3cf3fc7f013b6c12041b6ba68261019cf77fa3cbdc0966"
+original-published-id = "0xb5b69526e8c37cc195b4ca881c60a897194ffd11b8adb3638b5909fbdb44119e"
+latest-published-id = "0xb5b69526e8c37cc195b4ca881c60a897194ffd11b8adb3638b5909fbdb44119e"
+published-version = "1"
+
+[env.devnet]
+chain-id = "6b9b3fe9"
+original-published-id = "0xa8d1cd2bed6b05e583b0aed2228d939cc1b0cb723b5e114d9765fe331f5ffcca"
+latest-published-id = "0xa8d1cd2bed6b05e583b0aed2228d939cc1b0cb723b5e114d9765fe331f5ffcca"
 published-version = "1"
