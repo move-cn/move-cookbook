@@ -24,3 +24,8 @@
   - [映射(Vec Map)和集合(Vec Set)](05_collection/03.vec_map_and_vec_set.md)
   - [表(Table)](05_collection/04.table.md)
   - [背包(Bag)](05_collection/05.bag.md)
+
+- [水龙头](06_faucet/readme.md)
+  - [wallet](06_faucet/01.wallet.md)
+  - [discord](06_faucet/02.discord.md)
+  - [cli](06_faucet/03.cli.md)
