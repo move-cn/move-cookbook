@@ -29,3 +29,7 @@
   - [wallet](06_faucet/01.wallet.md)
   - [discord](06_faucet/02.discord.md)
   - [cli](06_faucet/03.cli.md)
+
+- [IDE](07_ide/readme.md)
+  - [vscode](07_ide/02.vs_code.sui_move.md)
+  - [intellij](07_ide/03.intellij.md)
