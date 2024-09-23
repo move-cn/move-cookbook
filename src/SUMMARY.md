@@ -16,6 +16,7 @@
 - [随机数](04_random/readme.md)
   - [random](04_random/01.random.md)
   - [oracle](04_random/02.oracle.md)
+  - [drand](04_random/03.drand.md)
 
 - [容器](05_collection/readme.md)
   - [动态字段(Dynamic Field)](05_collection/01.dynamic_field.md)
@@ -23,3 +24,12 @@
   - [映射(Vec Map)和集合(Vec Set)](05_collection/03.vec_map_and_vec_set.md)
   - [表(Table)](05_collection/04.table.md)
   - [背包(Bag)](05_collection/05.bag.md)
+
+- [水龙头](06_faucet/readme.md)
+  - [wallet](06_faucet/01.wallet.md)
+  - [discord](06_faucet/02.discord.md)
+  - [cli](06_faucet/03.cli.md)
+
+- [IDE](07_ide/readme.md)
+  - [vscode](07_ide/02.vs_code.sui_move.md)
+  - [intellij](07_ide/03.intellij.md)
